@@ -35,6 +35,8 @@ https://github.com/Jinho-Jeong12/toonation-donation-detector
 | `README.md` | 사용 설명서 (이 파일) |
 
 > **mp3 파일 2개는 반드시 `extract_toonation.py`와 같은 폴더에 있어야 합니다.**
+> 이 프로그램은 방송 영상의 오디오에서 투네이션 후원 효과음을 찾아낼 때, 이 mp3 파일들을 **"기준 소리"** 로 사용합니다.
+> mp3 파일이 없으면 음성 감지(B조건)가 비활성화되어 화면 텍스트 인식(A조건)만으로 동작하므로 일부 후원을 놓칠 수 있습니다.
 
 ---
 
